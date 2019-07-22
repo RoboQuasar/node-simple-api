@@ -1,0 +1,21 @@
+{
+  "name": "nodejsfirstapi",
+  "version": "1.0.0",
+  "description": "my first api on node and express",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "nodemon server.js"
+  },
+  "author": "Sineokov R.I.",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

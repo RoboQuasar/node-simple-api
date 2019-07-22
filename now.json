@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "imlab-api",
+  "builds": [
+    { "src": "**/*.js, **/*.json", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/app/routes/(.*)", "dest": "/notes/$1" },
+    { "src": "/app/routes", "dest": "/notes" }
+  ]
+}
